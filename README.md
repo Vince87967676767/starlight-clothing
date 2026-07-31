@@ -1,30 +1,34 @@
 # Starlight Clothing — Client Preview
 
-This is the stable improved version based on the original working site.
+This version is based on the original working website, but improved carefully.
 
-## Upload these files to the repository root
+## Files to upload to GitHub
 
-- index.html
-- about.html
-- styles.css
-- script.js
-- starlight-logo.jpg
+Upload these files to the repository root:
 
-Replace the existing files with these versions and commit the changes.
+- `index.html`
+- `about.html`
+- `styles.css`
+- `script.js`
+- `starlight-logo.jpg`
+
+The logo path is now:
+
+`starlight-logo.jpg`
+
+There is no `assets/` path in the HTML.
 
 ## Included
 
-- Medium-sized homepage logo
-- Responsive home and About pages
+- Medium-sized logo
+- Cleaner fashion-brand design
+- Responsive Home and About pages
 - Working mobile menu
 - Working basket drawer
-- TikTok link
-- Premium black/chrome/blue design
-- Coming-soon product placeholders
-- Smooth scroll and reveal animations
-- Shopify-ready wording
+- Correct TikTok link
+- Shopify-ready collection placeholder
 
 ## Shopify
 
-The basket is currently a polished preview interface. Real products, stock,
-checkout and payouts will be connected after the client creates Shopify and adds products.
+The current basket is a preview interface. Real products, prices, stock,
+checkout and payouts will be connected after the client creates Shopify.

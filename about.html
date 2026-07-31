@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Discover the story behind Starlight Clothing.">
-  <meta name="theme-color" content="#050507">
+  <meta name="theme-color" content="#080808">
   <title>About | Starlight Clothing</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -26,11 +26,11 @@
     </nav>
 
     <div class="header-actions">
-      <button class="basket-button" id="openBasket" type="button" aria-label="Open basket">
-        Basket <span>0</span>
+      <button class="basket-trigger" id="openBasket" type="button" aria-label="Open basket">
+        Basket <span class="basket-count">0</span>
       </button>
 
-      <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" aria-expanded="false">
+      <button class="menu-trigger" id="menuTrigger" type="button" aria-label="Open menu" aria-expanded="false">
         <span></span>
         <span></span>
       </button>
@@ -47,29 +47,28 @@
     <section class="about-hero">
       <div class="about-copy reveal">
         <p class="eyebrow">About Starlight</p>
-        <h1>Made for those who refuse to fade into the background.</h1>
+        <h1>A brand made for those who refuse to fade into the background.</h1>
         <p>
-          Starlight is an emerging clothing brand focused on confidence, individuality and limited releases.
+          Starlight is an emerging clothing label focused on confidence, individuality and limited releases.
         </p>
       </div>
 
-      <div class="about-logo-card reveal">
+      <div class="about-logo reveal">
         <img src="starlight-logo.jpg" alt="Starlight Clothing">
       </div>
     </section>
 
     <section class="story section-shell reveal">
-      <div class="story-number">01</div>
+      <div class="story-index">01</div>
 
-      <div class="story-content">
-        <p class="eyebrow">Our story</p>
+      <div class="story-copy">
+        <p class="eyebrow">The story</p>
         <h2>The beginning of something unmistakable.</h2>
         <p>
-          Starlight was created to give people clothing that feels confident, recognisable and personal.
-          The brand is being developed around bold visual identity, thoughtful details and limited collections.
+          Starlight is being developed around a simple idea: clothing should help people express who they are before they say a word.
         </p>
         <p>
-          This wording can be replaced with the client's final story before the official launch.
+          The final brand story can be added here once the client provides the approved wording.
         </p>
       </div>
     </section>
@@ -78,7 +77,7 @@
       <article class="value-card reveal">
         <span>01</span>
         <h3>Identity</h3>
-        <p>Pieces designed to strengthen personal style rather than copy every trend.</p>
+        <p>Designed to strengthen personal style instead of copying every trend.</p>
       </article>
 
       <article class="value-card reveal">
@@ -94,15 +93,15 @@
       </article>
     </section>
 
-    <section class="social-strip section-shell reveal">
+    <section class="tiktok-section section-shell reveal">
       <div>
         <p class="eyebrow">Follow the journey</p>
         <h2>Starlight on TikTok.</h2>
-        <p>Follow for previews, launch updates and behind-the-scenes content.</p>
+        <p>See previews, launch updates and behind-the-scenes content.</p>
       </div>
 
-      <a class="primary-button" href="https://www.tiktok.com/@starlight_clo" target="_blank" rel="noopener noreferrer">
-        Follow @starlight_clo ↗
+      <a class="button button-light" href="https://www.tiktok.com/@starlight_clo" target="_blank" rel="noopener noreferrer">
+        Follow @starlight_clo
       </a>
     </section>
   </main>
@@ -124,26 +123,26 @@
 
     <div class="footer-bottom">
       <span>© <span id="year"></span> Starlight Clothing</span>
-      <span>Website by Vinctec</span>
     </div>
   </footer>
 
   <div class="basket-overlay" id="basketOverlay"></div>
 
   <aside class="basket-drawer" id="basketDrawer" aria-hidden="true" aria-label="Shopping basket">
-    <div class="basket-header">
+    <div class="basket-head">
       <div>
         <p class="eyebrow">Your selection</p>
         <h2>Basket</h2>
       </div>
+
       <button id="closeBasket" type="button" aria-label="Close basket">×</button>
     </div>
 
     <div class="basket-empty">
-      <span class="empty-icon">✦</span>
+      <span class="empty-mark">✦</span>
       <h3>Your basket is empty.</h3>
       <p>The first Starlight collection is coming soon.</p>
-      <button class="outline-button" id="continueShopping" type="button">Continue browsing</button>
+      <button class="button button-outline" id="continueShopping" type="button">Continue browsing</button>
     </div>
 
     <div class="basket-summary">

@@ -1,10 +1,10 @@
 const header = document.getElementById("siteHeader");
-const menuButton = document.getElementById("menuButton");
+const menuTrigger = document.getElementById("menuTrigger");
 const mobileMenu = document.getElementById("mobileMenu");
 
-const openBasketButton = document.getElementById("openBasket");
-const closeBasketButton = document.getElementById("closeBasket");
-const continueShoppingButton = document.getElementById("continueShopping");
+const openBasket = document.getElementById("openBasket");
+const closeBasket = document.getElementById("closeBasket");
+const continueShopping = document.getElementById("continueShopping");
 const basketDrawer = document.getElementById("basketDrawer");
 const basketOverlay = document.getElementById("basketOverlay");
 
@@ -14,12 +14,12 @@ function updateHeader() {
 
 function toggleMenu() {
   const isOpen = mobileMenu?.classList.toggle("open") ?? false;
-  menuButton?.setAttribute("aria-expanded", String(isOpen));
+  menuTrigger?.setAttribute("aria-expanded", String(isOpen));
 }
 
 function closeMenu() {
   mobileMenu?.classList.remove("open");
-  menuButton?.setAttribute("aria-expanded", "false");
+  menuTrigger?.setAttribute("aria-expanded", "false");
 }
 
 function setBasketOpen(isOpen) {
@@ -32,21 +32,21 @@ function setBasketOpen(isOpen) {
 window.addEventListener("scroll", updateHeader, { passive: true });
 updateHeader();
 
-menuButton?.addEventListener("click", toggleMenu);
+menuTrigger?.addEventListener("click", toggleMenu);
 
 mobileMenu?.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", closeMenu);
 });
 
-openBasketButton?.addEventListener("click", () => setBasketOpen(true));
-closeBasketButton?.addEventListener("click", () => setBasketOpen(false));
-continueShoppingButton?.addEventListener("click", () => setBasketOpen(false));
+openBasket?.addEventListener("click", () => setBasketOpen(true));
+closeBasket?.addEventListener("click", () => setBasketOpen(false));
+continueShopping?.addEventListener("click", () => setBasketOpen(false));
 basketOverlay?.addEventListener("click", () => setBasketOpen(false));
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
-    setBasketOpen(false);
     closeMenu();
+    setBasketOpen(false);
   }
 });
 
