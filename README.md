@@ -1,15 +1,30 @@
-# Starlight GitHub Pages Website
+# Starlight Clothing — Client Preview
 
-Two-page starter website for the client.
+This is the stable improved version based on the original working site.
 
-## Publish
-1. Create the client repository.
-2. Upload all files and the `assets` folder.
-3. Go to **Settings → Pages**.
-4. Choose **Deploy from a branch**, then `main` and `/root`.
+## Upload these files to the repository root
 
-## TikTok
-Replace `tiktokUrl: "#"` in `script.js` with the real TikTok profile link.
+- index.html
+- about.html
+- styles.css
+- script.js
+- starlight-logo.jpg
+
+Replace the existing files with these versions and commit the changes.
+
+## Included
+
+- Medium-sized homepage logo
+- Responsive home and About pages
+- Working mobile menu
+- Working basket drawer
+- TikTok link
+- Premium black/chrome/blue design
+- Coming-soon product placeholders
+- Smooth scroll and reveal animations
+- Shopify-ready wording
 
 ## Shopify
-The basket is currently a design placeholder because the client has not added products. Once their Shopify store is ready, connect Shopify Buy Button or Storefront API so Shopify manages products, stock, basket, checkout, orders and payouts. Never store card details in GitHub code.
+
+The basket is currently a polished preview interface. Real products, stock,
+checkout and payouts will be connected after the client creates Shopify and adds products.

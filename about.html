@@ -1,1 +1,161 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="About Starlight."><title>Starlight | About</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body><header class="site-header"><a class="brand" href="index.html"><img src="starlight-logo.jpg" alt="Starlight logo"></a><nav><a href="index.html">Home</a><a class="active" href="about.html">About</a></nav><button class="basket-button" id="openBasket" type="button"><span>Basket</span><span class="basket-count">0</span></button></header><main><section class="section about-hero"><div class="reveal"><p class="eyebrow">About Starlight</p><h1>Made for those who refuse to disappear.</h1><p class="muted">Starlight is an emerging clothing brand focused on bold identity, premium presentation and limited releases. Replace this text with the client's final story.</p></div><div class="logo-panel reveal"><img src="starlight-logo.jpg" alt="Starlight logo"></div></section><section class="section reveal"><p class="eyebrow">Our direction</p><h2>Confidence in every detail.</h2><p class="muted narrow">The brand is being built around strong visual identity, distinctive design and a community that follows its own path.</p></section><section class="section split reveal"><div><p class="eyebrow">Follow the journey</p><h2>Starlight on TikTok</h2><p class="muted">New drops, behind-the-scenes content and brand updates.</p></div><a class="button light" id="tiktokLink" href="#" target="_blank" rel="noopener">Follow on TikTok</a></section></main><aside class="drawer" id="basketDrawer" aria-hidden="true"><div class="drawer-head"><div><p class="eyebrow">Your basket</p><h2>Basket</h2></div><button id="closeBasket" class="close" type="button">×</button></div><div class="empty"><div class="star small">✦</div><h3>Your basket is empty</h3><p class="muted">Products will become available after Shopify is connected.</p></div><div class="drawer-foot"><div class="total"><span>Subtotal</span><strong>£0.00</strong></div><button class="checkout" disabled>Checkout unavailable</button><small>Secure checkout will be provided by Shopify.</small></div></aside><div class="overlay" id="overlay"></div><footer><div><img src="starlight-logo.jpg" alt="Starlight"><p class="muted">Premium streetwear. Limited drops.</p></div><div><a href="index.html">Home</a> <a href="about.html">About</a></div><p class="muted">© <span id="year"></span> Starlight</p></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the story behind Starlight Clothing.">
+  <meta name="theme-color" content="#050507">
+  <title>About | Starlight Clothing</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="index.html" aria-label="Starlight home">
+      <img src="starlight-logo.jpg" alt="Starlight Clothing logo">
+    </a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#collection">Collection</a>
+      <a class="active" href="about.html">About</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="basket-button" id="openBasket" type="button" aria-label="Open basket">
+        Basket <span>0</span>
+      </button>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="index.html#collection">Collection</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+    <section class="about-hero">
+      <div class="about-copy reveal">
+        <p class="eyebrow">About Starlight</p>
+        <h1>Made for those who refuse to fade into the background.</h1>
+        <p>
+          Starlight is an emerging clothing brand focused on confidence, individuality and limited releases.
+        </p>
+      </div>
+
+      <div class="about-logo-card reveal">
+        <img src="starlight-logo.jpg" alt="Starlight Clothing">
+      </div>
+    </section>
+
+    <section class="story section-shell reveal">
+      <div class="story-number">01</div>
+
+      <div class="story-content">
+        <p class="eyebrow">Our story</p>
+        <h2>The beginning of something unmistakable.</h2>
+        <p>
+          Starlight was created to give people clothing that feels confident, recognisable and personal.
+          The brand is being developed around bold visual identity, thoughtful details and limited collections.
+        </p>
+        <p>
+          This wording can be replaced with the client's final story before the official launch.
+        </p>
+      </div>
+    </section>
+
+    <section class="values section-shell">
+      <article class="value-card reveal">
+        <span>01</span>
+        <h3>Identity</h3>
+        <p>Pieces designed to strengthen personal style rather than copy every trend.</p>
+      </article>
+
+      <article class="value-card reveal">
+        <span>02</span>
+        <h3>Quality</h3>
+        <p>A focus on considered details, strong presentation and a premium finish.</p>
+      </article>
+
+      <article class="value-card reveal">
+        <span>03</span>
+        <h3>Exclusivity</h3>
+        <p>Limited releases intended to make every Starlight drop feel special.</p>
+      </article>
+    </section>
+
+    <section class="social-strip section-shell reveal">
+      <div>
+        <p class="eyebrow">Follow the journey</p>
+        <h2>Starlight on TikTok.</h2>
+        <p>Follow for previews, launch updates and behind-the-scenes content.</p>
+      </div>
+
+      <a class="primary-button" href="https://www.tiktok.com/@starlight_clo" target="_blank" rel="noopener noreferrer">
+        Follow @starlight_clo ↗
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="starlight-logo.jpg" alt="Starlight Clothing">
+        <p>Premium streetwear. Limited by design.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#collection">Collection</a>
+        <a href="about.html">About</a>
+        <a href="https://www.tiktok.com/@starlight_clo" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Starlight Clothing</span>
+      <span>Website by Vinctec</span>
+    </div>
+  </footer>
+
+  <div class="basket-overlay" id="basketOverlay"></div>
+
+  <aside class="basket-drawer" id="basketDrawer" aria-hidden="true" aria-label="Shopping basket">
+    <div class="basket-header">
+      <div>
+        <p class="eyebrow">Your selection</p>
+        <h2>Basket</h2>
+      </div>
+      <button id="closeBasket" type="button" aria-label="Close basket">×</button>
+    </div>
+
+    <div class="basket-empty">
+      <span class="empty-icon">✦</span>
+      <h3>Your basket is empty.</h3>
+      <p>The first Starlight collection is coming soon.</p>
+      <button class="outline-button" id="continueShopping" type="button">Continue browsing</button>
+    </div>
+
+    <div class="basket-summary">
+      <div>
+        <span>Subtotal</span>
+        <strong>£0.00</strong>
+      </div>
+      <button type="button" disabled>Checkout unavailable</button>
+      <small>Secure checkout will be connected through Shopify.</small>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
