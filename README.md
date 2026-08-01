@@ -37,3 +37,12 @@ checkout and payouts will be connected after the client creates Shopify.
 ## Glass logo update
 
 The hero logo now sits inside a floating frosted-glass display with a soft ice-blue internal glow.
+
+
+## Important
+Use `starlight-logo.png`. Its background is transparent so the glass effect is visible.
+
+
+## Luxury display cases
+
+The Home and About logos now use matching frosted-glass display cases. The rest of the site remains matte black so the glass stays premium rather than overwhelming.
