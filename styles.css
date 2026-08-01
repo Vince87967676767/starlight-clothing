@@ -1476,3 +1476,255 @@ body{
     animation: none !important;
   }
 }
+
+
+/* ==================================================
+   CLEAN FINAL REFINEMENT
+   Minimal, premium, fashion-led presentation
+   ================================================== */
+
+:root {
+  --background: #070707;
+  --surface: #0d0d0d;
+  --surface-soft: #111111;
+  --text: #f6f6f2;
+  --muted: #9a9a95;
+  --line: rgba(255, 255, 255, 0.10);
+}
+
+/* Cleaner global rhythm */
+body {
+  background:
+    radial-gradient(circle at 50% 4%, rgba(190, 218, 255, 0.045), transparent 28%),
+    #070707 !important;
+}
+
+.section-shell {
+  width: min(calc(100% - 44px), 1180px) !important;
+}
+
+.eyebrow {
+  color: #b4b7bd !important;
+  letter-spacing: 0.17em !important;
+}
+
+/* Cleaner navigation */
+.site-header {
+  height: 72px !important;
+  background: rgba(7, 7, 7, 0.82) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(18px) saturate(110%) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(110%) !important;
+}
+
+.brand {
+  width: 104px !important;
+}
+
+.brand img {
+  height: 40px !important;
+}
+
+/* Refined hero spacing */
+.hero {
+  padding-top: 112px !important;
+  padding-bottom: 64px !important;
+}
+
+.campaign-grid {
+  gap: 58px !important;
+}
+
+.campaign-copy h1 {
+  font-size: clamp(3.8rem, 7.3vw, 7.2rem) !important;
+  letter-spacing: -0.065em !important;
+}
+
+.campaign-intro {
+  max-width: 500px !important;
+  color: #9d9d98 !important;
+}
+
+/* Cleaner logo display */
+.logo-stage,
+.about-glass-case {
+  border-radius: 26px !important;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.018)),
+    rgba(13, 15, 20, 0.76) !important;
+  border: 1px solid rgba(230, 242, 255, 0.15) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.13),
+    0 24px 70px rgba(0, 0, 0, 0.42),
+    0 0 44px rgba(150, 190, 255, 0.07) !important;
+  backdrop-filter: blur(20px) saturate(112%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(112%) !important;
+}
+
+/* Remove oversized decorative rings for a cleaner look */
+.logo-stage::before,
+.logo-stage::after {
+  opacity: 0.55 !important;
+}
+
+.logo-stage .hero-logo,
+.about-glass-case img {
+  width: min(72%, 350px) !important;
+  filter:
+    drop-shadow(0 0 7px rgba(255, 255, 255, 0.26))
+    drop-shadow(0 0 20px rgba(190, 225, 255, 0.20))
+    drop-shadow(0 0 38px rgba(145, 170, 255, 0.10)) !important;
+}
+
+.logo-halo,
+.about-logo-halo {
+  opacity: 0.72 !important;
+  filter: blur(38px) !important;
+}
+
+.logo-stage > p,
+.about-glass-case p {
+  color: #7c8088 !important;
+  letter-spacing: 0.12em !important;
+}
+
+/* Clean buttons */
+.button,
+.primary-button,
+.button-light,
+.button-outline {
+  min-height: 48px !important;
+  padding-inline: 23px !important;
+  border-radius: 999px !important;
+  font-size: 0.88rem !important;
+  box-shadow: none !important;
+}
+
+.button-light {
+  background: #f4f4f0 !important;
+  color: #090909 !important;
+}
+
+.button-outline {
+  background: rgba(255, 255, 255, 0.018) !important;
+}
+
+/* Remove excessive movement */
+.logo-stage,
+.logo-stage .hero-logo,
+.about-glass-case img {
+  animation-duration: 9s !important;
+}
+
+/* Cleaner sections and borders */
+.intro,
+.collection,
+.brand-section,
+.story,
+.tiktok-section {
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.collection-preview,
+.value-card {
+  background: #0b0b0b !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  box-shadow: none !important;
+}
+
+.collection-preview {
+  min-height: 430px !important;
+}
+
+.preview-mark {
+  color: #f1f1ed !important;
+}
+
+.value-card {
+  min-height: 270px !important;
+}
+
+/* Cleaner About layout */
+.about-hero {
+  gap: 56px !important;
+}
+
+.about-logo {
+  min-height: 460px !important;
+}
+
+.about-glass-case {
+  min-height: 430px !important;
+}
+
+/* Cleaner footer */
+.footer-top {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+
+.footer-brand img {
+  width: 150px !important;
+  max-height: 68px !important;
+}
+
+.footer-links {
+  gap: 22px !important;
+}
+
+/* Cleaner basket */
+.basket-drawer {
+  background: rgba(10, 10, 11, 0.96) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.10) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+}
+
+/* Mobile polish */
+@media (max-width: 620px) {
+  .site-header {
+    height: 66px !important;
+  }
+
+  .mobile-menu {
+    top: 66px !important;
+  }
+
+  .brand {
+    width: 90px !important;
+  }
+
+  .hero {
+    padding-top: 102px !important;
+  }
+
+  .campaign-grid {
+    gap: 36px !important;
+  }
+
+  .campaign-copy h1 {
+    font-size: clamp(3.2rem, 15vw, 5rem) !important;
+  }
+
+  .logo-stage,
+  .about-glass-case {
+    border-radius: 22px !important;
+  }
+
+  .logo-stage {
+    min-height: 330px !important;
+  }
+
+  .about-glass-case {
+    min-height: 330px !important;
+  }
+
+  .logo-stage .hero-logo,
+  .about-glass-case img {
+    width: min(78%, 285px) !important;
+  }
+
+  .section-shell {
+    width: min(calc(100% - 30px), 1180px) !important;
+  }
+}

@@ -46,3 +46,8 @@ Use `starlight-logo.png`. Its background is transparent so the glass effect is v
 ## Luxury display cases
 
 The Home and About logos now use matching frosted-glass display cases. The rest of the site remains matte black so the glass stays premium rather than overwhelming.
+
+
+## Clean final refinement
+
+Reduced visual clutter, softened the glass treatment, tightened spacing, simplified shadows and improved the mobile layout.
