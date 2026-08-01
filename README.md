@@ -32,3 +32,8 @@ There is no `assets/` path in the HTML.
 
 The current basket is a preview interface. Real products, prices, stock,
 checkout and payouts will be connected after the client creates Shopify.
+
+
+## Glass logo update
+
+The hero logo now sits inside a floating frosted-glass display with a soft ice-blue internal glow.
