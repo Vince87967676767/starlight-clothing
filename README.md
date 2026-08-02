@@ -1,15 +1,8 @@
-# Starlight Clothing — Smoked Glass Redesign
+# Starlight premium clean fix
 
-This version keeps the working HTML and JavaScript structure but replaces the old layered CSS with one clean stylesheet.
+This version fixes the crowded hero, removes overlapping elements, reduces the headline size and centres the layout for a cleaner premium result.
 
-## Included
-- Smoked-black glass logo case
-- Dark graphite logo treatment that matches the background
-- Clean fashion-led spacing and typography
-- Working basket drawer
-- Working mobile menu
-- Home and About pages
-- Correct TikTok link
-- Shopify-ready collection placeholder
 
-Upload all files to the root of the GitHub repository and replace the existing files.
+## Brand lockup update
+
+The logo is centred and `STARLIGHT • LONDON` now sits professionally inside the glass panel on Home and About.
